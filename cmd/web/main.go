@@ -10,25 +10,6 @@ import (
 	"time"
 )
 
-//Home page handler
-//func Home (w http.ResponseWriter, r *http.Request) {
-//	renderTemplate(w, "testhome.page.tmpl")
-//}
-
-// About page handler
-//func About (w http.ResponseWriter, r *http.Request) {
-//	renderTemplate(w, "testabout.page.tmpl")
-//}
-
-//func renderTemplate(w http.ResponseWriter, tmpl string) {
-//	parsedTemplate, _ := template.ParseFiles("../../templates/" + tmpl)
-//	err := parsedTemplate.Execute(w, nil)
-//	if err != nil {
-//		fmt.Println("error", err)
-//		return
-//	}
-//}
-
 const portNumber = ":8080"
 var app config.AppConfig
 var session *scs.SessionManager
